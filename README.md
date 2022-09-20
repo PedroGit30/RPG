@@ -1,5 +1,5 @@
 # RPG
-Random Polygon Generator
+AI Random Polygon Generator
 
 <pre>
 
@@ -75,4 +75,56 @@ Runs all the algorithm starting with 1000 ordered according to nearest first, 15
 ```console
 java -cp bin main.Start -n 1000 -r 20 -s 15 -img -hc BI NF FI NF LC NF R NF -sa NF -p -f
 ```
+
+# Ouput Example
+<pre>
+-----------------------------------------------LOG-------------------------------------------
+---------------------------------------------------------------------------------------------
+Hill Climbing : Best improvement | Points:Random
+Number of iterations: 201
+Time: 0.535
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+Hill Climbing : First improvement | Points:Random
+Number of iterations: 506
+Time: 0.083
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+Hill Climbing : Less conflicts | Points:Random
+Number of iterations: 278
+Time: 89.004
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+Hill Climbing : Random | Points:Random
+Number of iterations: 591
+Time: 0.338
+---------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------
+Simulated Anneling | Points:Random
+Number of iterations: 527
+Time: 0.249
+Initial temp: 200.0
+Final temp: 0.9126759151233416
+---------------------------------------------------------------------------------------------
+-----------------------------------------------END LOG---------------------------------------
+</pre>
+
+# Hill Climbing:Best improvement | Points:Random
+![Hill Climbing:Best improvement | Points:Random](https://user-images.githubusercontent.com/71783901/191139527-b438a39c-f3af-4f14-a328-9f1cd90c1afe.png)
+
+# Hill Climbing:First improvement | Points:Random
+![Hill Climbing:First improvement | Points:Random](https://user-images.githubusercontent.com/71783901/191139542-f206200c-b47d-425d-bd54-ff85514ad597.png)
+
+# Hill Climbing:Less conflicts | Points:Random
+![Hill Climbing:Less conflicts | Points:Random](https://user-images.githubusercontent.com/71783901/191139592-7770a4d7-1969-45cc-b05c-df6a6e1c81ab.png)
+
+# Hill Climbing:Random | Points:Random
+![Hill Climbing:Random | Points:Random](https://user-images.githubusercontent.com/71783901/191139630-18378c4f-5811-4a22-b1b2-4dc89e4ed491.png)
+
+# Simulated Anneling | Points:Random
+![Simulated Anneling | Points:Random](https://user-images.githubusercontent.com/71783901/191139646-d7ce55a8-4ca8-4b96-a343-063373f77a6b.png)
+
+
+
+
 
